@@ -1,0 +1,34 @@
+.bannerimg {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-image: url("https://daisycottagedesigns.net/wp-content/uploads/2022/06/Pantbox-Simply-Aran.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+
+    .categories {
+        width: 15vw;
+        height: 10vh;
+        border: 2px solid var(--primary);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        line-height: 10vh;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .bannerimg {
+        width: 100vw;
+        height: 30vh;
+        background-color: rgba(0, 0, 0, 0.6);
+
+        .categories {
+            display: none;
+        }
+    }
+}
