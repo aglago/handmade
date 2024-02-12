@@ -1,0 +1,66 @@
+@import url(../../index.css);
+
+/* FOR DESKTOP DEVICES */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--lato);
+    color: #DB7060;
+    font-size: 20px;
+    height: 10vh;
+    align-items: center;
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.2);
+
+    .settings {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 2rem;
+    }
+
+    .largeScreenStyle {
+        display: flex;
+        padding-right: 2rem;
+        align-items: center;
+        gap: 2rem;
+
+        .shopping_cart {
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .person {
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* FOR MOBILE DEVICES */
+
+@media screen and (max-width: 490px) {
+    .smallScreenStyle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px;
+
+        .settings {
+            display: block;
+            padding: 0;
+        }
+    }
+
+    div.largeScreenStyle {
+        padding: unset;
+    }
+
+    div.largeScreenStyle * {
+        padding-right: 0;
+        display: none;
+    }
+}

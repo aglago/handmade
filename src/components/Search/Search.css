@@ -1,0 +1,18 @@
+.search {
+    font-size: 25px;
+}
+
+div.searchDiv {
+    width: 20vw;
+    border-radius: 10px;
+    border: 2px solid var(--primary);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    input {
+        border: none;
+        outline: none;
+        width: 60%;
+    }
+}

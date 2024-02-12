@@ -1,0 +1,31 @@
+@import url(../../index.css);
+
+div.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 490px) {
+    div.hamburger {
+        display: block;
+        div.one,
+        div.two,
+        div.three {
+            height: 6px;
+            background-color: var(--primary);
+            border-radius: 5px;
+            margin: 5px;
+        }
+    
+        div.one {
+            width: 20px;
+        }
+
+        div.two {
+            width: 30px;
+        }
+    
+        div.three {
+            width: 45px;
+        }
+    }
+}
