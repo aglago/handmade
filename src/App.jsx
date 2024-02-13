@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header"
 import Navigation from "./components/Navigation/Navigation"
 import BannerImg from "./components/BannerImg/BannerImg"
+import FeaturedText from "./components/FeaturedText/FeaturedText"
 
 export default function App() {
   
@@ -15,7 +16,7 @@ export default function App() {
 
     {/* FEATURED */}
 
-    
+    <FeaturedText />
 
     {/* FOR MOBILE */}
     {/* NAVIGATION PANEL */}

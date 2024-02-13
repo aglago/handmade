@@ -1,8 +1,8 @@
 .bannerimg {
     position: relative;
-    height: 60vh;
+    height: 65vh;
     width: 100vw;
-    background-image: url("https://daisycottagedesigns.net/wp-content/uploads/2022/06/Pantbox-Simply-Aran.jpg");
+    background-image: url(https://i0.wp.com/ictcatalogue.com/wp-content/uploads/2020/09/fashion__Designs_Ghana.jpg?fit=1000%2C600&ssl=1);
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover;
@@ -10,7 +10,7 @@
     .categories {
         width: 15vw;
         height: 10vh;
-        border: 2px solid var(--primary);
+        border: 2px solid #135CBD;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -18,6 +18,14 @@
         text-align: center;
         line-height: 10vh;
         cursor: pointer;
+        font-weight: bold;
+        color: #135CBD;
+        cursor: pointer;
+    }
+
+    .categories:hover {
+        color: var(--primary);
+        border-color: var(--primary);
     }
 }
 

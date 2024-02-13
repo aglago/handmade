@@ -8,6 +8,10 @@
     --orange: #E0A01F;
 }
 
+html {
+    font-family: var(--monstse);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
