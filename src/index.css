@@ -6,6 +6,7 @@
     --primary: #DB7060;
     --blue: #7EB2E1;
     --orange: #E0A01F;
+    --lightprimary: #f4d4cf;
 }
 
 html {
@@ -14,5 +15,9 @@ html {
 
 * {
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
+}
+
+body {
+    padding-bottom: 2rem;
 }

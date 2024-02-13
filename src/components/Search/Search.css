@@ -5,7 +5,7 @@
 div.searchDiv {
     width: 20vw;
     border-radius: 10px;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--blue);
     display: flex;
     justify-content: start;
     align-items: center;

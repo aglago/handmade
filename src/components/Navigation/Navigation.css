@@ -2,7 +2,7 @@
     .navbar_mobile {
         height: 10vh;
         background-color: var(--primary);
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         padding: 0 10px;
@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 10px;
-        color: #f4d4cf;
+        color: var(--lightprimary);
         
         .storefront, .search, .chat, .history, .person {
             font-size: 28px;

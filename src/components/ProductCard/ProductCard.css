@@ -1,0 +1,89 @@
+
+div.featureProductCard {
+    position: relative;
+    height: 50vh;
+    width: 35vw;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+
+    img {
+        height: 60%;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .information {
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .priceAndFavorite {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            margin-left: 20px;
+
+            .favorite {
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+
+        .addToCart {
+            background-color: var(--blue);
+            height: 6vh;
+            width: 35%;
+            margin-right: 2rem;
+            text-align: center;
+            line-height: 6vh;
+            color: white;
+            cursor: pointer;
+        }
+
+        .addtocartButton {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    div.featureProductCard {
+        height: 35vh;
+        width: 22vh;
+
+        .information {
+            bottom: 15px;
+
+            .priceAndFavorite {
+
+                h3 {
+                    font-size: 15px;
+                }
+
+                .favorite {
+                    font-size: 18px;
+                }
+            }
+
+            .addToCart {
+                display: none;
+            }
+
+            .addtocartButton {
+                color: var(--blue);
+                font-size: 30px;
+            }
+        }
+    }
+}

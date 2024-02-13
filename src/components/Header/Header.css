@@ -11,6 +11,8 @@ header {
     height: 10vh;
     align-items: center;
     box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.2);
+    /* position: fixed;
+    top: 0; */
 
     .settings {
         display: none;
@@ -25,6 +27,7 @@ header {
         padding-right: 2rem;
         align-items: center;
         gap: 2rem;
+        color: var(--blue);
 
         .shopping_cart {
             font-size: 25px;
