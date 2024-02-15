@@ -1,4 +1,4 @@
-import ProductCard from "../ProductCard/ProductCard"
+import ProductCard from "../FeatureProductCard/FeatueProductCard"
 import './FeaturedImgs.css'
 
 export default function FeaturedImgs() {

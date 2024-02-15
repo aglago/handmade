@@ -1,5 +1,5 @@
 import Icon from '../Icon/Icon'
-import './ProductCard.css'
+import './FeatureProductCard.css'
 import PropTypes from 'prop-types'
 
 export default function ProductCard({src, price, description}) {
