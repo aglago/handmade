@@ -7,27 +7,12 @@ import FeaturedImgs from "./components/0ShopPage/FeaturedImgs/FeaturedImgs"
 export default function App() {
   
   return <div>
-    {/* HEADER OF THE PAGE */}
+    {/* The Shop Page of the App */}
 
     <Header />
-
-    {/* BANNER */}
-
     <BannerImg />
-
-    {/* FEATURED */}
-
     <FeaturedText />
-
-    {/* Fearuted Products */}
-
     <FeaturedImgs />
-
-    {/* Products */}
-
-    {/* FOR MOBILE */}
-    {/* NAVIGATION PANEL */}
-
     <Navigation />
   </div>
 }
