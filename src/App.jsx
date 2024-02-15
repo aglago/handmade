@@ -1,8 +1,8 @@
-import Header from "./components/Header/Header"
-import Navigation from "./components/Navigation/Navigation"
-import BannerImg from "./components/BannerImg/BannerImg"
-import FeaturedText from "./components/FeaturedText/FeaturedText"
-import FeaturedImgs from "./components/FeaturedImgs/FeaturedImgs"
+import Header from "./components/0ShopPage/Header/Header"
+import Navigation from "./components/0ShopPage/Navigation/Navigation"
+import BannerImg from "./components/0ShopPage/BannerImg/BannerImg"
+import FeaturedText from "./components/0ShopPage/FeaturedText/FeaturedText"
+import FeaturedImgs from "./components/0ShopPage/FeaturedImgs/FeaturedImgs"
 
 export default function App() {
   
