@@ -6,6 +6,8 @@ div.featureProductCard {
     width: 35vw;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     margin: 20px 10px;
+    background-color: var(--primary);
+    color: var(--lightprimary);
 
     img {
         height: 60%;
