@@ -15,8 +15,8 @@ export default function ShopPage() {
     <BannerImg />
     <FeaturedText />
     <FeaturedImgs />
-      <div className="products_container">
-          <Product />
+    <div className="products_container">
+        <Product />
     </div>
     <Navigation />
   </div>

@@ -4,3 +4,9 @@ div.products_container {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 490px) {
+    div.products_container {
+        margin-bottom: 2rem;
+    }
+}
