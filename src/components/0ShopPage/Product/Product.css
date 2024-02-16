@@ -1,5 +1,18 @@
 /* FOR DESKTOP SCREENS */
-
 div.product {
-    
+    height: 50vh;
+    width: 19vw;
+
+    .addtocartButton {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 490px) {
+    div.product {
+        position: inherit;
+        height: 35vh;
+        width: 22vh;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        background-color: red;
+    }
 }
