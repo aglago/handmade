@@ -10,7 +10,7 @@ div.hamburger {
         div.two,
         div.three {
             height: 6px;
-            background-color: var(--primary);
+            background-color: var(--lightprimary);
             border-radius: 5px;
             margin: 5px;
         }

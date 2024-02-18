@@ -4,7 +4,8 @@ header {
     display: flex;
     justify-content: space-between;
     font-family: var(--lato);
-    color: #DB7060;
+    /* color: #DB7060; */
+    color: var(--lightprimary);
     font-size: 20px;
     height: 10vh;
     align-items: center;
