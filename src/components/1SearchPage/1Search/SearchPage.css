@@ -83,7 +83,7 @@ div.leftAndRight {
 
     div.all_products {
         position: fixed;
-        width: 70vw;
+        width: 73.5vw;
         height: 6vh;
         background-color: var(--lightprimary);
         margin-top: 20px;
@@ -100,12 +100,17 @@ div.leftAndRight {
     }
 
     .productInCategoryContainerWrapper {
+        margin-top: 12vh;
+    }
 
-        margin-top: 10vh;
+    @media screen and (max-width: 490px) {
+        .productInCategoryContainerWrapper {
+            margin-top: 10vh;
+        }
     }
     
     div.productInCategoryContainer {
-        width: 100%;
+        width: 95%;
         height: 40vh;
         background-color: #edb8b0;
         margin-top: 10px;
@@ -130,8 +135,8 @@ div.leftAndRight {
             overflow-y: hidden;
 
             div.product {
-                height: 10vh;
-                width: 20vw;
+                height: 8vh;
+                width: 18vw;
 
                 img {
                     height: 100%;
