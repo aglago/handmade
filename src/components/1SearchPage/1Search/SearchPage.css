@@ -86,7 +86,6 @@ div.leftAndRight {
         width: 73.5vw;
         height: 6vh;
         background-color: var(--lightprimary);
-        margin-top: 20px;
         text-align: center;
         line-height: 6vh;
         display: flex;
@@ -105,13 +104,13 @@ div.leftAndRight {
 
     @media screen and (max-width: 490px) {
         .productInCategoryContainerWrapper {
-            margin-top: 10vh;
+            margin-top: 7vh;
         }
     }
     
     div.productInCategoryContainer {
-        width: 95%;
-        height: 40vh;
+        width: 93%;
+        height: 65vh;
         background-color: #edb8b0;
         margin-top: 10px;
         
@@ -135,7 +134,7 @@ div.leftAndRight {
             overflow-y: hidden;
 
             div.product {
-                height: 8vh;
+                height: 24vh;
                 width: 18vw;
 
                 img {
@@ -143,6 +142,20 @@ div.leftAndRight {
                     width: 100%;
                 }
             }
+
+            @media screen and (max-width: 490px) {
+                div.product {
+                    height: 8vh;
+                    width: 18vw;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        .productInCategoryContainer {
+            width: 95% !important;
+            height: 40vh !important;
         }
     }
 }
