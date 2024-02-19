@@ -14,6 +14,7 @@
     gap: 10px;
     justify-content: end !important;
     padding-right: 4rem;
+    padding-bottom: 2vh;
 
     .cartButtonInSearch {
         font-size: 30px;
@@ -79,11 +80,11 @@ div.leftAndRight {
 
     div.right {
     overflow-y: scroll;
-    height: 85vh;
+    height: 100vh;
 
     div.all_products {
         position: fixed;
-        width: 73.5vw;
+        width: 72.2vw;
         height: 6vh;
         background-color: var(--lightprimary);
         text-align: center;
@@ -99,7 +100,7 @@ div.leftAndRight {
     }
 
     .productInCategoryContainerWrapper {
-        margin-top: 12vh;
+        margin-top: 8vh;
     }
 
     @media screen and (max-width: 490px) {
@@ -171,6 +172,7 @@ div.right::-webkit-scrollbar {
     .searchContainer {
         right: 0;
         padding-right: unset;
+        padding-bottom: unset;
         width: 100vw;
             
         .cartButtonInSearch {

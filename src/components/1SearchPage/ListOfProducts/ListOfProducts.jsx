@@ -57,37 +57,37 @@ const allProducts = [
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://reapp.com.gh/wp-content/uploads/2021/07/IMG-20220321-WA0011-e1648323872262.jpg"
                             },
                             {
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://reapp.com.gh/wp-content/uploads/2020/10/Title-24huumnmmvfr-e1624288377422.jpg"
                             },
                             {
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://reapp.com.gh/wp-content/uploads/2019/08/IMG-20200101-WA0002-270x220.jpg"
                             },
                             {
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://5.imimg.com/data5/SELLER/Default/2023/6/316450961/CS/HW/LB/2387085/whatsapp-image-2023-06-14-at-11-58-35-v1-125x125.jpg"
                             },
                             {
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://gh.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/939958/1.jpg?8269"
                             },
                             {
                                 id: 0,
                                 name: "Women suits",
                                 price: "GHc 200",
-                                image: ""
+                                image: "https://i.ebayimg.com/images/g/VcIAAOSw2O1d8fiQ/s-l1200.webp"
                             },
                         ]
                     },
