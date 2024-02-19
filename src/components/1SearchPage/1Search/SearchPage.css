@@ -8,6 +8,10 @@
 }
 
 .searchContainer {
+    position: relative;
+    background-color: var(--primary);
+    z-index: 2;
+    position: fixed;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -61,6 +65,8 @@ div.leftAndRight {
 
 
     div.left {
+        position: relative;
+        top: 13vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -81,9 +87,11 @@ div.leftAndRight {
     div.right {
     overflow-y: scroll;
     height: 100vh;
+    position: relative;
 
     div.all_products {
         position: fixed;
+        top: 9vh;
         width: 72.2vw;
         height: 6vh;
         background-color: var(--lightprimary);
@@ -93,6 +101,7 @@ div.leftAndRight {
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
+        cursor: pointer;
 
         .rightIcon {
             font-size: 30px;
@@ -100,12 +109,12 @@ div.leftAndRight {
     }
 
     .productInCategoryContainerWrapper {
-        margin-top: 8vh;
+        margin-top: 17vh;
     }
 
     @media screen and (max-width: 490px) {
         .productInCategoryContainerWrapper {
-            margin-top: 7vh;
+            margin-top: 16vh;
         }
     }
     
@@ -141,6 +150,7 @@ div.leftAndRight {
                 img {
                     height: 100%;
                     width: 100%;
+                    cursor: pointer;
                 }
             }
 
