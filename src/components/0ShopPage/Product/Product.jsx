@@ -15,7 +15,12 @@ export default function ProductCard() {
                         <h3>{item.prodPrice}</h3>
                         <Icon icon="favorite" className="material-symbols-outlined favorite" />
                     </div>
-                    <Icon icon="add_shopping_cart" className="material-symbols-outlined addtocartButton" />
+                    <div className='addtocartWrapper'>
+                        <Icon
+                            icon="add_shopping_cart"
+                            className="material-symbols-outlined addtocartButton"
+                        />
+                    </div>
                 </div>
             </div>)
         }

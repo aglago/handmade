@@ -12,8 +12,8 @@
         padding: 0 10px;
         color: var(--lightprimary);
         
-        .storefront, .search, .chat, .history, .person {
-            font-size: 28px;
+        .storefront, .search, .chat, .cart, .person {
+            font-size: 25px;
             cursor: pointer;
         }
     }

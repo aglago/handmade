@@ -4,38 +4,49 @@ import './Navigation.css'
 
 export default function Navigation() {
     
-    return <div className="navbar_mobile">
-                {/* Store */}
-                <NavigationItem className="material-symbols-outlined storefront" 
-                icon="storefront" 
-                description="Store"/>
+    return (
+        <div className="navbar_mobile">
+            {/* Store */}
+            <NavigationItem className="material-symbols-outlined storefront" 
+            icon="storefront" 
+            description="Store"/>
+            
+            {/* Search */}
+            
+            <NavigationItem
+            className="material-symbols-outlined search"
+            icon="manage_search"
+            description="Search" />
                 
-                {/* Search */}
+            {/* Chat */}
                 
-                <NavigationItem
-                className="material-symbols-outlined search"
-                icon="manage_search"
-                description="Search" />
+            <NavigationItem
+            className="material-symbols-outlined chat"
+            icon="chat"
+            description="Chat" />
                 
-                {/* Chat */}
+            {/* History */}
                 
-                <NavigationItem
-                className="material-symbols-outlined chat"
-                icon="chat"
-                description="Chat" />
-                
-                {/* History */}
-                
-                <NavigationItem
+            {/* <NavigationItem
                 className="material-symbols-outlined chat"
                 icon="history"
-                description="History" />
+                description="History" /> */}
+        
+            {/* Cart */}
                 
-                {/* Profile */}
+            <NavigationItem
+                className="material-symbols-outlined cart"
+                icon="shopping_cart"
+                description="Cart"
+            />
+                    
                 
-                <NavigationItem
+            {/* Profile */}
+                
+            <NavigationItem
                 className="material-symbols-outlined person"
                 icon="person"
-                description="Profile" />
-            </div>
+                description="Profile"
+            />
+        </div>)
 }

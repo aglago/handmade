@@ -3,9 +3,20 @@ div.product {
     height: 50vh;
     width: 19vw;
 
+    .addtocartWrapper {
+        background-color: var(--blue);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
     .addtocartButton {
             display: block !important;
-            color: var(--blue);
+            color: white;
+            margin-left: 9px;
         }
 }
 @media screen and (max-width: 490px) {
@@ -13,5 +24,10 @@ div.product {
         height: 35vh;
         width: 22vh;
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .addtocartButton {
+        color: white !important;
+        font-size: 20px !important;
     }
 }
