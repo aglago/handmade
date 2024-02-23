@@ -7,30 +7,27 @@ export default function Navigation() {
     return (
         <div className="navbar_mobile">
             {/* Store */}
-            <NavigationItem className="material-symbols-outlined storefront" 
-            icon="storefront" 
-            description="Store"/>
+            <NavigationItem
+                className="material-symbols-outlined storefront" 
+                icon="storefront" 
+                description="Store"
+            />
             
             {/* Search */}
             
             <NavigationItem
-            className="material-symbols-outlined search"
-            icon="manage_search"
-            description="Search" />
+                className="material-symbols-outlined search"
+                icon="manage_search"
+                description="Search"
+            />
                 
             {/* Chat */}
                 
             <NavigationItem
-            className="material-symbols-outlined chat"
-            icon="chat"
-            description="Chat" />
-                
-            {/* History */}
-                
-            {/* <NavigationItem
                 className="material-symbols-outlined chat"
-                icon="history"
-                description="History" /> */}
+                icon="chat"
+                description="Chat"
+            />
         
             {/* Cart */}
                 
@@ -40,7 +37,6 @@ export default function Navigation() {
                 description="Cart"
             />
                     
-                
             {/* Profile */}
                 
             <NavigationItem
