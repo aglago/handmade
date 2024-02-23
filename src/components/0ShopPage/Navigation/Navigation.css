@@ -16,5 +16,13 @@
             font-size: 25px;
             cursor: pointer;
         }
+
+        .chat {
+            font-size: 22px !important;
+        }
+
+        .storefront {
+            font-size: 24px !important;
+        }
     }
 }
