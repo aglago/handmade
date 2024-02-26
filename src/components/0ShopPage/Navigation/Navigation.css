@@ -17,6 +17,11 @@
             cursor: pointer;
         }
 
+        a {
+            color: var(--lightprimary);
+            text-decoration: none;
+        }
+
         .chat {
             font-size: 22px !important;
         }
@@ -24,5 +29,9 @@
         .storefront {
             font-size: 24px !important;
         }
+    }
+
+    Link. {
+        columns: var(--lightprimary);
     }
 }

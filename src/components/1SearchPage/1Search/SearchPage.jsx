@@ -10,8 +10,8 @@ export default function SearchPage() {
     return <div className="searchPageBody">
         <div className="searchContainer">
             <Search
-            className="material-symbols-outlined searchInSearch"
-            divClassName="searchDivSearch"
+                className="material-symbols-outlined searchInSearch"
+                divClassName="searchDivSearch"
             />
 
             <Icon
@@ -30,10 +30,8 @@ export default function SearchPage() {
                     )
                 )}
             </div>
-            <div
-                className="right">
-                <div
-                    className="all_products">
+            <div className="right">
+                <div className="all_products">
                     <p>All Products</p>
                     <Icon
                         className="material-symbols-outlined rightIcon"

@@ -8,14 +8,15 @@ import './ShopPage.css'
 
 export default function ShopPage() {
   
-  return <div>
-    {/* The Shop Page of the App */}
-
-    <Header />
-    <BannerImg />
-    <FeaturedText />
-    <FeaturedImgs />
-    <Product />
-    <Navigation />
+  return (
+    <div>
+      {/* The Shop Page of the App */}
+      <Header />
+      <BannerImg />
+      <FeaturedText />
+      <FeaturedImgs />
+      <Product />
+      <Navigation />
   </div>
+  )
 }

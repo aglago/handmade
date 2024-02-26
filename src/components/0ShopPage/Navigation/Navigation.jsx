@@ -1,5 +1,6 @@
 import NavigationItem from "../NavigationItem/NavigationItem";
 import './Navigation.css'
+import { Outlet, Link } from "react-router-dom";
 
 
 export default function Navigation() {
@@ -7,42 +8,54 @@ export default function Navigation() {
     return (
         <div className="navbar_mobile">
             {/* Store */}
-            <NavigationItem
-                className="material-symbols-outlined storefront" 
-                icon="storefront" 
-                description="Store"
-            />
+            <Link to="/" className="storefront">
+                <NavigationItem
+                    className="material-symbols-outlined storefront" 
+                    icon="storefront" 
+                    description="Store"
+                />
+            </Link>
             
             {/* Search */}
             
-            <NavigationItem
-                className="material-symbols-outlined search"
-                icon="manage_search"
-                description="Search"
-            />
+            <Link to="search">
+                <NavigationItem
+                    className="material-symbols-outlined search"
+                    icon="manage_search"
+                    description="Search"
+                />
+            </Link>
                 
             {/* Chat */}
                 
-            <NavigationItem
-                className="material-symbols-outlined chat"
-                icon="chat"
-                description="Chat"
-            />
+            <Link to="chat">
+                <NavigationItem
+                    className="material-symbols-outlined chat"
+                    icon="chat"
+                    description="Chat"
+                />
+            </Link>
         
             {/* Cart */}
                 
-            <NavigationItem
-                className="material-symbols-outlined cart"
-                icon="shopping_cart"
-                description="Cart"
-            />
+            <Link to="cart">
+                <NavigationItem
+                    className="material-symbols-outlined cart"
+                    icon="shopping_cart"
+                    description="Cart"
+                />
+            </Link>
                     
             {/* Profile */}
                 
-            <NavigationItem
-                className="material-symbols-outlined person"
-                icon="person"
-                description="Profile"
-            />
+            <Link to="profile">
+                <NavigationItem
+                    className="material-symbols-outlined person"
+                    icon="person"
+                    description="Profile"
+                />
+            </Link>
+
+            <Outlet />
         </div>)
 }
