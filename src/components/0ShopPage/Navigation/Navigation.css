@@ -30,8 +30,4 @@
             font-size: 24px !important;
         }
     }
-
-    Link. {
-        columns: var(--lightprimary);
-    }
 }
