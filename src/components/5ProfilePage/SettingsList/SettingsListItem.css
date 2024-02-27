@@ -1,0 +1,24 @@
+div.profileListTab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    /* border-bottom: 1px solid grey; */
+    
+    div.left {
+        display: flex;
+        align-items: center;
+
+        .orders {
+            font-size: 25px;
+            color: var(--primary);
+        }
+
+    }
+
+    .right {
+        font-size: 25px;
+        color: var(--primary);
+    }
+
+}

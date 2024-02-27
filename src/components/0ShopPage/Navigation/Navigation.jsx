@@ -18,7 +18,7 @@ export default function Navigation() {
             
             {/* Search */}
             
-            <Link to="search">
+            <Link to="/search">
                 <NavigationItem
                     className="material-symbols-outlined search"
                     icon="manage_search"
@@ -28,7 +28,7 @@ export default function Navigation() {
                 
             {/* Chat */}
                 
-            <Link to="chat">
+            <Link to="/chat">
                 <NavigationItem
                     className="material-symbols-outlined chat"
                     icon="chat"
@@ -38,7 +38,7 @@ export default function Navigation() {
         
             {/* Cart */}
                 
-            <Link to="cart">
+            <Link to="/cart">
                 <NavigationItem
                     className="material-symbols-outlined cart"
                     icon="shopping_cart"
@@ -48,7 +48,7 @@ export default function Navigation() {
                     
             {/* Profile */}
                 
-            <Link to="profile">
+            <Link to="/profile">
                 <NavigationItem
                     className="material-symbols-outlined person"
                     icon="person"

@@ -1,0 +1,24 @@
+div.welcomeWrapper {
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+    height: 13vh;
+    /* position: fixed; */
+
+    button {
+        padding: 15px;
+        background-color: var(--blue);
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+.profileListWrapper {
+    /* margin-top: 20vh; */
+}
