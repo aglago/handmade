@@ -1,3 +1,4 @@
+import Navigation from "../../0ShopPage/Navigation/Navigation"
 import SettingsListItem from "../SettingsList/SettingsListItem"
 import "./Welcome.css"
 
@@ -58,6 +59,7 @@ export default function Welcome() {
                     description="Address Book"
                 />
             </div>
+            <Navigation />
         </>
     )
 }
