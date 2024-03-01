@@ -3,47 +3,50 @@ import Navigation from "../../0ShopPage/Navigation/Navigation"
 import SettingsListItem from "../SettingsList/SettingsListItem"
 import "./Welcome.css"
 
+let isLoggedIn = true;
+
+const info = {
+    name: "Isaias Cuvula",
+    email: "isaiahscuvula@gmail.com",
+    registeredOn: "Feb 21, 2024"
+}
+
+const profile = (
+    <div className="profile">
+        <div className="profilePicture">
+            <img
+                src=""
+                // alt="profile picture"
+            />
+            <Icon
+                icon="edit"
+                className="material-symbols-outlined edit"
+            />
+        </div>
+        <h2>{info.name}</h2>
+        <p>{info.email}</p>
+        <p>Registered in: {info.registeredOn}</p>
+    </div>
+)
+
+const welcomeWrapper = (
+    <div className="welcomeWrapper">
+        <div className="welcome">
+            <h3>Welcome!</h3>
+            <p>Enter your account</p>
+        </div>
+
+        <button>
+            LOGIN
+        </button>
+    </div>
+)
+
 export default function Welcome() {
-
-    let isLoggedIn = true;
-
-    const info = {
-        name: "Isaias Cuvula",
-        email: "isaiahscuvula@gmail.com",
-        registeredOn: "Feb 21, 2024"
-    }
-
 
     return (
         <>
-            {isLoggedIn ? 
-                <div className="profile">
-                    <div className="profilePicture">
-                        <img
-                            src=""
-                            // alt="profile picture"
-                        />
-                        <Icon
-                            icon="edit"
-                            className="material-symbols-outlined edit"
-                        />
-                    </div>
-                    <h2>{info.name}</h2>
-                    <p>{info.email}</p>
-                    <p>Registered in: {info.registeredOn}</p>
-                </div>
-            :
-                <div className="welcomeWrapper">
-                    <div className="welcome">
-                        <h3>Welcome!</h3>
-                        <p>Enter your account</p>
-                    </div>
-
-                    <button>
-                        LOGIN
-                    </button>
-                </div>
-            }
+            {isLoggedIn ? profile : welcomeWrapper}
 
             <div className="profileListWrapper">
                 <SettingsListItem
