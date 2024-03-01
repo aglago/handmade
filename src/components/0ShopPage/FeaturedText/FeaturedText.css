@@ -8,12 +8,18 @@ div.featured {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 11vh;
+        margin-top: 37vh;
         margin-bottom: 5vh;
 
         h1 {
             font-size: 23px;
         }
+}
+
+@media screen and (max-width: 490px) {
+    div.featured {
+        margin-top: 13vh;
+    }
 }
 
 nav.nav {

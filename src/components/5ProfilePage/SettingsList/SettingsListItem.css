@@ -3,7 +3,7 @@ div.profileListTab {
     align-items: center;
     justify-content: space-between;
     padding: 15px 10px;
-    /* border-bottom: 1px solid grey; */
+    cursor: pointer;
     
     div.left {
         display: flex;
@@ -21,4 +21,8 @@ div.profileListTab {
         color: var(--primary);
     }
 
+}
+
+div.profileListTab:hover {
+    background-color: var(--lightprimary);
 }

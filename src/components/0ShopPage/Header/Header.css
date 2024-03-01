@@ -29,16 +29,21 @@ header {
         padding-right: 2rem;
         align-items: center;
         gap: 2rem;
-        color: var(--blue);
-
+        
         .shopping_cart {
             font-size: 25px;
             cursor: pointer;
         }
-
+        
         .person {
             font-size: 30px;
             cursor: pointer;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            
         }
     }
 }

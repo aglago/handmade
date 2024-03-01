@@ -3,6 +3,7 @@ import Logo from "../Logo/Logo"
 import Icon from "../Icon/Icon"
 import Search from "../Search/Search"
 import './Header.css'
+import { Link } from "react-router-dom"
 
 
 export default function Header() {
@@ -19,9 +20,13 @@ export default function Header() {
                 
         <div className="largeScreenStyle">
             <Search className="material-symbols-outlined search" />
-            <Icon className="material-symbols-outlined shopping_cart" icon=
+            <Link to="/cart">
+                <Icon className="material-symbols-outlined shopping_cart" icon=
             "shopping_cart"/>
-            <Icon className="material-symbols-outlined person" icon="Person"></Icon>
+            </Link>
+            <Link to="/profile">
+                <Icon className="material-symbols-outlined person" icon="Person"></Icon>
+            </Link>
         </div>
     </header>
 }

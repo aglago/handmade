@@ -1,3 +1,57 @@
+
+div.profile {
+    height: 45vh;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        color: var(--blue);
+        text-align: center;
+        margin-left: 18px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        color: var(--lightprimary);
+    }
+
+    div.profilePicture, img {
+        height: 28vh;
+        width: 14vw;
+        border-radius: 50%;
+    }
+
+    @media screen and (max-width: 490px){
+        div.profilePicture,
+            img {
+                height: 28vh;
+                width: 52vw;
+                border-radius: 50%;
+            }
+    }
+
+    div.profilePicture {
+        position: relative;
+        background-color: white;
+        cursor: pointer;
+
+        .edit {
+            position: absolute;
+            top: 70%;
+            right: -1%;
+            color: var(--blue);
+            border-bottom: 2px solid var(--blue);
+            font-size: 20px;
+        }
+    }
+
+
+}
+
 div.welcomeWrapper {
     width: 100%;
     background-color: var(--primary);
