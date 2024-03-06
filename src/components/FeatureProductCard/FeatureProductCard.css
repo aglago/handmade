@@ -2,7 +2,7 @@
 
 div.featureProductCard {
     position: relative;
-    height: 50vh;
+    height: 60vh;
     width: 35vw;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     margin: 20px 10px;
@@ -46,7 +46,7 @@ div.featureProductCard {
         .addToCart {
             background-color: var(--blue);
             height: 6vh;
-            width: 35%;
+            width: 30%;
             margin-right: 2rem;
             text-align: center;
             line-height: 6vh;
@@ -86,8 +86,10 @@ div.featureProductCard {
             }
 
             .addtocartButton {
-                color: var(--blue);
-                font-size: 30px;
+                display: block;
+                background-color: var(--blue);
+                color: white;
+                font-size: 20px;
             }
         }
     }

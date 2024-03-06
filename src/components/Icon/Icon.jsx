@@ -3,9 +3,11 @@ import './Icon.css'
 
 export default function Icon({icon, className, onclick}) {
     
-    return <span className={className} onClick={onclick}>
-                {icon}
-           </span>
+    return (
+        <span className={className} onClick={onclick}>
+            {icon}
+        </span>
+    )
 }
 
 Icon.propTypes = {

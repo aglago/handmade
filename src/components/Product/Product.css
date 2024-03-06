@@ -1,23 +1,19 @@
 /* FOR DESKTOP SCREENS */
+div.products_container {
+    margin-top: 2rem;
+}
+
 div.product {
     height: 50vh;
     width: 19vw;
 
-    .addtocartWrapper {
-        background-color: var(--blue);
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10px;
+    .addtocartButton {
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        padding-right: 15px;
         cursor: pointer;
     }
-
-    .addtocartButton {
-            display: block !important;
-            color: white;
-            margin-left: 9px;
-        }
 }
 @media screen and (max-width: 490px) {
     div.product {
@@ -27,7 +23,8 @@ div.product {
     }
 
     .addtocartButton {
-        color: white !important;
-        font-size: 20px !important;
+        display: block !important;
+        padding: 5px;
+        margin-right: 5px;
     }
 }
