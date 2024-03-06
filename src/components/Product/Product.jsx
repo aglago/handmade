@@ -1,7 +1,7 @@
 import Icon from '../Icon/Icon'
 import '../FeatureProductCard/FeatureProductCard.css'
 import './Product.css'
-import ListOfProducts from '../../ListOfProducts/ListOfProducts'
+import ListOfProducts from '../../assets/ListOfProducts/ListOfProducts'
 
 export default function ProductCard() {
     

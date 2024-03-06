@@ -1,4 +1,4 @@
-import NavigationItem from "../NavigationItem/NavigationItem";
+import NavigationItem from "../../components/NavigationItem/NavigationItem";
 import './Navigation.css'
 import { Outlet, Link } from "react-router-dom";
 

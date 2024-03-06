@@ -1,6 +1,6 @@
-import Icon from "../../0ShopPage/Icon/Icon";
-import Navigation from "../../0ShopPage/Navigation/Navigation"
-import SettingsListItem from "../SettingsList/SettingsListItem"
+import Icon from "../../components/Icon/Icon";
+import Navigation from "../../components/Navigation/Navigation"
+import SettingsListItem from "../../components/SettingsList/SettingsListItem"
 import "./Welcome.css"
 
 let isLoggedIn = true;

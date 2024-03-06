@@ -1,4 +1,4 @@
-import Icon from "../../0ShopPage/Icon/Icon";
+import Icon from "../../components/Icon/Icon";
 import PropTypes from 'prop-types'
 import './SettingsListItem.css'
 
