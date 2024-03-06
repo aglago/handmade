@@ -1,7 +1,7 @@
 import {Routes, Route } from "react-router-dom"
-import ShopPage from "./components/0ShopPage/0Shop/ShopPage"
-import SearchPage from "./components/1SearchPage/1Search/SearchPage"
-import ProfilePage from "./components/5ProfilePage/0Profile/ProfilePage"
+import ShopPage from "./pages/shopPage/ShopPage"
+import SearchPage from "./pages/searchPage/SearchPage"
+import ProfilePage from "./pages/profilePage/ProfilePage"
 
 export default function App() {
   
