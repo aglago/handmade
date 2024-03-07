@@ -1,12 +1,30 @@
 .bannerimg {
     position: relative;
     top: 10vh;
-    height: 65vh;
+    height: 95vh;
     width: 100vw;
+    backdrop-filter: blur(100px);
+    text-align: center;
+    line-height: 75vh;
 
-    img {
-        height: 90vh;
-        width: 100%;
+    background-image: url(../../assets/images/fashion__Designs_Ghana.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+    h1 {
+        font-family: var(--opensans);
+        color: var(--primary);
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p {
+        position: absolute;
     }
 
     .categories {
@@ -41,6 +59,11 @@
         }
         .categories {
             display: none;
+        }
+
+        h1 {
+            line-height: 30vh;
+            font-size: 32px;
         }
     }
 }

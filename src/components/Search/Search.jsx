@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Icon from "../Icon/Icon";
 import './Search.css'
 import PropTypes from 'prop-types'
+import { Link } from "react-router-dom";
 
 
 export default function Search({ className, divClassName }) {
@@ -20,10 +21,9 @@ export default function Search({ className, divClassName }) {
     }, []);
 
     return (
-        <div className={divClassName}>
+        <Link to="/search">
             <Icon className={className} icon="search" />
-            <input type="text" />
-        </div>
+        </Link>
     )
 }
 

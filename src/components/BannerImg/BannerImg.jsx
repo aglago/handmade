@@ -4,7 +4,10 @@ export default function BannerImg() {
     
     return (
         <div className='bannerimg'>
-            <img src="https://i0.wp.com/ictcatalogue.com/wp-content/uploads/2020/09/fashion__Designs_Ghana.jpg?fit=1000%2C600&ssl=1" alt="" />
+            {/* <img src="" alt="banner image" /> */}
+            <div className="h1">
+                <h1>Handmade With Love</h1>
+            </div>
         </div>
     )
 }

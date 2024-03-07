@@ -22,13 +22,15 @@ header {
 
     .logo {
         padding-left: 2rem;
+        font-family: var(--pacifico);
+        font-weight: normal;
     }
 
     .largeScreenStyle {
         display: flex;
-        padding-right: 2rem;
+        padding-right: 1rem;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
         
         .shopping_cart {
             font-size: 25px;

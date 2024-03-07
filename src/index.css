@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
+    --opensans: 'Open Sans', sans-serif;
+    --pacifico: 'Pacifico', cursive;
+    --roboto: 'Roboto', sans-serif;
+    --rubik: 'Rubik Burned', system-ui;
     --monstse: 'Montserrat', sans-serif;
     --lato: 'Lato', sans-serif;
     --primary: #DB7060;
     --blue: #7EB2E1;
     --orange: #E0A01F;
     --lightprimary: #f4d4cf;
+    --lightestprimary: #fbf1ef;
 }
 
 html {
