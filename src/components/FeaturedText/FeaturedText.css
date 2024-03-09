@@ -8,7 +8,7 @@ div.featured {
         align-items: center;
         justify-content: center;
         margin-top: 20vh;
-        margin-bottom: 10vh;
+        margin-bottom: 3vh;
 
         h1 {
             font-size: 23px;
@@ -17,7 +17,7 @@ div.featured {
 
 @media screen and (max-width: 490px) {
     div.featured {
-        margin-top: 10vh;
+        margin-top: 15vh;
     }
 }
 

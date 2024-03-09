@@ -8,6 +8,21 @@ div.product {
     width: 19vw;
     background-color: white;
     color: var(--primary);
+    padding: 2px;
+    border-radius: 12px;
+    border: 2px solid var(--primary);
+        
+
+    img {
+        border-radius: 12px;
+    }
+
+    .priceAndDescription {
+        
+        h3 {
+            color: var(--primary);
+        }
+    }
 
     .addtocartButton {
         display: block !important;
@@ -19,24 +34,25 @@ div.product {
 }
 @media screen and (max-width: 490px) {
     div.product {
-        height: 35vh;
-        width: 22vh;
+        height: 38vh;
+        width: 23vh;
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     }
 
     .addtocartWrapper {
         background-color: var(--blue);
-        margin-right: 5px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .addtocartButton {
-        display: block !important;
-        padding: 5px;
-        
-        margin-right: 5px;
+        display: flex !important;
     }
 
     .for-mobile {
-
+        padding: 5px 0;
+        margin-left: 13px;
     }
 }

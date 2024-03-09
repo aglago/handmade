@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 
 
-export default function Search({ className, divClassName }) {
+export default function Search({ className }) {
     useEffect(() => {
         function handleKeyDown(event) {
             if (event.ctrlKey && event.key === 'k') {

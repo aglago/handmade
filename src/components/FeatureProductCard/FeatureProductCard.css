@@ -3,22 +3,35 @@
 div.featureProductCard {
     position: relative;
     height: 60vh;
-    width: 35vw;
+    width: 30vw;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     margin: 20px 10px;
     background-color: var(--primary);
     color: var(--lightprimary);
 
-    img {
+    .productImage {
         height: 60%;
+    }
+    
+    img {
+        height: 100%;
         width: 100%;
         cursor: pointer;
     }
 
-    p {
-        text-align: left;
-        margin-left: 20px;
-        font-size: 18px;
+    .priceAndDescription {
+        padding: 0 10px;
+        margin-top: 10px;
+
+        h3 {
+            font-size: 120%;
+            color: white;
+        }
+        
+        p {
+            font-size: 13px;
+            margin: 5px 0;
+        }
     }
 
     .information {
@@ -32,10 +45,10 @@ div.featureProductCard {
 
         .priceAndFavorite {
             display: flex;
-            flex-direction: column;
             align-items: start;
             justify-content: space-between;
-            margin-left: 20px;
+            margin-left: 10px;
+            width: 100%;
 
             .favorite {
                 font-size: 22px;
@@ -67,11 +80,17 @@ div.featureProductCard {
         height: 35vh;
         width: 22vh;
 
+        .priceAndDescription {
+
+            p {
+                margin: 3px 0;
+            }
+        }
+
         .information {
             bottom: 15px;
 
             .priceAndFavorite {
-
                 h3 {
                     font-size: 15px;
                 }
@@ -87,9 +106,8 @@ div.featureProductCard {
 
             .addtocartButton {
                 display: block;
-                background-color: var(--blue);
                 color: white;
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
